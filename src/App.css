@@ -30,12 +30,12 @@
 .social-media-links {
   width: 30px;
   height: 30px;
-  padding: 2px;
   margin: auto
 }
 
 .name {
-  color: #FFF8E7;
+  /*color: #FFF8E7;*/
+  color: blue;
   font-size: 2em;
   font-family: "Copperplate", Copperplate Gothic Light, sans-serif;
   text-align: center;
