@@ -70,3 +70,11 @@
 .modal-container .modal, .modal-container .modal-backdrop {
   position: absolute;
 }
+
+.profile-description-text {
+  color: black;
+  font-weight: 300;
+  font-size: 1.25em;
+  border: dotted;
+  padding: 15px
+}

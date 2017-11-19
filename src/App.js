@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
 import Contact from './Contact.js'
-import { Modal } from 'react-bootstrap'
+import About from './About.js'
+import Projects from './Projects.js'
+import Blog from './Blog.js'
+import { Modal, Tabs, Tab } from 'react-bootstrap'
 
 class App extends Component {
 
@@ -59,7 +62,11 @@ class App extends Component {
         </div>
       </div>
       <div>
-        projects go here projects go here projects go here projects go here projects go here projects go here projects go here projects go here
+        <Tabs defaultActiveKey={1} animation={false} id="noanim-tab-example">
+          <Tab eventKey={1} title="About Me"><About/></Tab>
+          <Tab eventKey={2} title="Technical Projects"><Projects/></Tab>
+          <Tab eventKey={3} title="Blog"><Blog/></Tab>
+        </Tabs>
       </div>
     </div>
     );
