@@ -1,8 +1,29 @@
 import React, { Component } from 'react';
 import './App.css';
 import Contact from './Contact.js'
+import { Modal } from 'react-bootstrap'
 
 class App extends Component {
+
+  constructor() {
+    super()
+    this.state = {
+      showModal: false
+    }
+  }
+
+  open = (event) => {
+    this.setState({
+      showModal: true
+    })
+  }
+
+  close = (event) => {
+    this.setState({
+      showModal: false
+    })
+  }
+
   render() {
     return (
       <div className="container">
@@ -29,6 +50,12 @@ class App extends Component {
         </div>
         <div className="col-2">
           <Contact/>
+          <div style={{paddingTop:"15px", paddingLeft:"60px"}}>
+            <button style={{borderStyle:"none"}} onClick={this.open}><img className="social-media-links" src='http://freevector.co/wp-content/uploads/2010/06/52762-job-search-symbol-of-a-hand-holding-cv.png' alt="resume"/></button>
+            <Modal show={this.state.showModal} onHide={this.close}>
+                <iframe style={{width:"900px", height:"700px"}} src="https://docs.google.com/document/d/e/2PACX-1vRM-Fz0mHHoNE68vr33bU9JiKDiG2iNKN1qz45npTlpsz3osTYPnzV7Ni9Gm114IL_-2IbS7MGsRmEr/pub?embedded=true"></iframe>
+            </Modal>
+          </div>
         </div>
       </div>
       <div>
