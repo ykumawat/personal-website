@@ -12,7 +12,7 @@ class Projects extends React.Component {
             </div>
           <Carousel.Caption>
             <h3>S+S</h3>
-            <p>Easily and efficiently manage contact cards and notes with S+S, an image-to-text contact and document creator.</p>
+            <p>Easily and efficiently manage contacts and notes with S+S, an image-to-text contact and document creator.</p>
           </Carousel.Caption>
           </Carousel.Item>
 

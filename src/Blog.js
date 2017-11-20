@@ -4,8 +4,8 @@ class Blog extends React.Component {
 
   render() {
     return (
-      <div>
-      hi
+      <div style={{paddingTop:"20px"}}>
+      
       </div>
     )
   }
