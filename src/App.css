@@ -1,25 +1,3 @@
-/*.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 160px;
-  border-radius: 30px;
-  grid-area: photo;
-}
-
-.App-header {
-  background-color: #6C567B;
-  height: 210px;
-  padding: 20px;
-  color: #FFF8E7;
-}
-
-.App-title {
-  font-size: 2em;
-  font-family: "Copperplate", Copperplate Gothic Light, sans-serif
-}*/
-
 .container {
   /*background-color: #6C567B;*/
   height: 100px;
@@ -40,7 +18,14 @@
   font-family: "Copperplate", Copperplate Gothic Light, sans-serif;
   text-align: center;
   margin: auto
+}
 
+.name:hover {
+  color: #feb41d
+}
+
+.carousel-control {
+  width: 80px
 }
 
 a {
@@ -85,13 +70,13 @@ a {
   color: black;
   font-weight: 300;
   font-size: 1.25em;
-  border: dotted;
+  border: dotted #B68FA3;
   padding: 15px
 }
 
 .slide-container {
   width: 1110px;
-  height: 400px;
+  height: 550px;
   padding-left: 200px
 }
 
@@ -101,12 +86,13 @@ a {
   margin-top: 10px;
   font-size: 1.25em;
   font-weight: 100;
-  border: 1px solid #B68FA3;
+  border: 1px solid #feb41d;
+  color: #B68FA3;
   border-radius: 12px
 }
 
 .project-demo-button-link:hover {
-  background-color: #B68FA3;
+  background-color: #feb41d;
   color: white
 }
 
@@ -117,13 +103,14 @@ a {
   margin-left: 550px;
   font-size: 1.25em;
   font-weight: 100;
-  border: 1px solid #B68FA3;
+  border: 1px solid #feb41d;
+  color: #B68FA3;
   border-radius: 12px
 
 }
 
 .project-code-link:hover {
-  background-color: #B68FA3;
+  background-color: #feb41d;
   color: white
 }
 
