@@ -84,3 +84,43 @@
   height: 400px;
   padding-left: 200px
 }
+
+.project-demo-button-link {
+  width: 80px;
+  height: 40px;
+  margin-top: 10px;
+  font-size: 1.5em;
+  font-weight: 100;
+  border: 1px solid #4CAF50;
+  border-radius: 12px
+}
+
+.project-demo-button-link:hover {
+  background-color: #4CAF50;
+  color: white
+}
+
+.project-code-link {
+  /*on hover to display backend and frontend, if separated*/
+  width: 80px;
+  height: 40px;
+  margin-left: 550px;
+  font-size: 1.5em;
+  font-weight: 100;
+  border: 1px solid #008CBA;
+  border-radius: 12px
+
+}
+
+.project-code-link:hover {
+  background-color: #008CBA;
+  color: white
+}
+
+.project-video {
+
+}
+
+.project-code-snippet {
+
+}

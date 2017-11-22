@@ -9,6 +9,8 @@ class Projects extends React.Component {
         <Carousel>
           <Carousel.Item>
             <div className="slide-container">
+              <button className="project-demo-button-link">Demo</button>
+              <button className="project-code-link">Code</button>
             </div>
           <Carousel.Caption>
             <h3>S+S</h3>
@@ -18,6 +20,8 @@ class Projects extends React.Component {
 
           <Carousel.Item>
           <div className="slide-container">
+            <button className="project-demo-button-link">Demo</button>
+            <button className="project-code-link">Code</button>
           </div>
           <Carousel.Caption>
             <h3>NYC Rec Ref</h3>
@@ -27,6 +31,8 @@ class Projects extends React.Component {
 
           <Carousel.Item>
           <div className="slide-container">
+            <button className="project-demo-button-link">Demo</button>
+            <button className="project-code-link">Code</button>
           </div>
           <Carousel.Caption>
             <h3>YaKush.ly</h3>
@@ -36,6 +42,8 @@ class Projects extends React.Component {
 
           <Carousel.Item>
           <div className="slide-container">
+            <button className="project-demo-button-link">Demo</button>
+            <button className="project-code-link">Code</button>
           </div>
           <Carousel.Caption>
             <h3>What's Cookin'?</h3>
