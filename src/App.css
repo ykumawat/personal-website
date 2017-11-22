@@ -35,12 +35,17 @@
 
 .name {
   /*color: #FFF8E7;*/
-  color: blue;
+  color: #B68FA3;
   font-size: 3em;
   font-family: "Copperplate", Copperplate Gothic Light, sans-serif;
   text-align: center;
   margin: auto
 
+}
+
+a {
+  color: #B68FA3;
+  font-size: 15px
 }
 
 .profile-image {
@@ -54,8 +59,13 @@
 
 .btn-primary {
   color: white;
-  background-color: cornflowerblue;
-  border-color: cornflowerblue;
+  background-color: #B68FA3;
+  border-color: #B68FA3;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #B68FA3
 }
 
 .btn {
@@ -89,14 +99,14 @@
   width: 80px;
   height: 40px;
   margin-top: 10px;
-  font-size: 1.5em;
+  font-size: 1.25em;
   font-weight: 100;
-  border: 1px solid #4CAF50;
+  border: 1px solid #B68FA3;
   border-radius: 12px
 }
 
 .project-demo-button-link:hover {
-  background-color: #4CAF50;
+  background-color: #B68FA3;
   color: white
 }
 
@@ -105,15 +115,15 @@
   width: 80px;
   height: 40px;
   margin-left: 550px;
-  font-size: 1.5em;
+  font-size: 1.25em;
   font-weight: 100;
-  border: 1px solid #008CBA;
+  border: 1px solid #B68FA3;
   border-radius: 12px
 
 }
 
 .project-code-link:hover {
-  background-color: #008CBA;
+  background-color: #B68FA3;
   color: white
 }
 
