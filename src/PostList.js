@@ -1,8 +1,6 @@
 import React from 'react'
 
 const PostList = (props) => {
-
-  console.log(props.post)
   return (
     <div style={{border: "double", marginBottom: "20px"}}>
       <div>
