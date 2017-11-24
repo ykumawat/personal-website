@@ -113,6 +113,12 @@ a {
     background-color: #3e8e41;
 }
 
+.post {
+  margin-left: 1000px;
+  float: right;
+  margin-right: 10px
+}
+
 .project-demo-button-link {
   width: 80px;
   height: 40px;

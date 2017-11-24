@@ -31,7 +31,7 @@ class Projects extends React.Component {
             <button className="project-demo-button-link">Demo</button>
             <div className="dropdown">
               <button className="project-code-link">Code</button>
-              <div class="dropdown-content">
+              <div className="dropdown-content">
                 <a href="https://github.com/ykumawat/nyc-rec-frontend" target="_blank" rel="noopener noreferrer">Frontend</a>
                 <a href="https://github.com/ykumawat/nyc-rec-backend" target="_blank" rel="noopener noreferrer">Backend</a>
               </div>
@@ -72,8 +72,7 @@ class Projects extends React.Component {
 
           <Carousel.Item>
           <div className="slide-container">
-            <button className="project-demo-button-link">Demo</button>
-            <a href="https://github.com/ykumawat/module-one-final-project-guidelines-web-071717" target="_blank" rel="noopener noreferrer"><button className="project-code-link">Code</button></a>
+            <a href="https://github.com/ykumawat/module-one-final-project-guidelines-web-071717" target="_blank" rel="noopener noreferrer"><button className="project-code-link" style={{marginLeft: '900px'}}>Code</button></a>
             <div>
             <div className="project-video">
 
