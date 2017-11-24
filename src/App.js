@@ -68,6 +68,9 @@ class App extends Component {
           <Tab eventKey={3} title="Blog"><Blog/></Tab>
         </Tabs>
       </div>
+      <div className="footer">
+        Made with Love and React.js, by Yamini Kumawat
+      </div>
     </div>
     );
   }

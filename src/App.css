@@ -172,3 +172,18 @@ a {
   width: 450px;
   border: dotted
 }
+
+.footer {
+  background-color: #B68FA3;
+  font-size: 20px;
+  color: white;
+  border-top: 1px solid #E7E7E7;
+  text-align: center;
+  padding: 2px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 30px;
+  width: 100%;
+  font-size: 1.25em
+};
