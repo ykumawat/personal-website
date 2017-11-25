@@ -37,7 +37,7 @@ class Blog extends React.Component {
       })
 
       return (
-        <div style={{paddingTop:"20px"}}>
+        <div style={{paddingTop:"20px", paddingBottom:"20px"}}>
           {posts}
         </div>
       )

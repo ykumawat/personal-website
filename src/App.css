@@ -15,7 +15,7 @@
   /*color: #FFF8E7;*/
   color: #B68FA3;
   font-size: 3em;
-  font-family: "Copperplate", Copperplate Gothic Light, sans-serif;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   text-align: center;
   margin: auto
 }
@@ -57,6 +57,7 @@ a {
   font-weight: 300;
   padding: .25rem .25rem;
   font-size: 1em;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
 .modal-container {
@@ -71,7 +72,8 @@ a {
   font-weight: 300;
   font-size: 1.25em;
   border: dotted #B68FA3;
-  padding: 15px
+  padding: 15px;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
 .slide-container {
@@ -131,7 +133,8 @@ a {
   border: 1px solid #feb41d;
   color: #B68FA3;
   border-radius: 12px;
-  float: left
+  float: left;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
 .project-demo-button-link:hover {
@@ -150,7 +153,8 @@ a {
   color: #B68FA3;
   border-radius: 12px;
   cursor: pointer;
-  float: right
+  float: right;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 
 }
 
@@ -187,5 +191,6 @@ a {
   bottom: 0;
   height: 30px;
   width: 100%;
-  font-size: 1.25em
+  font-size: 1.25em;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 };
