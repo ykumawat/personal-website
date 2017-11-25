@@ -83,6 +83,7 @@ a {
 .dropdown {
     position: relative;
     display: inline-block;
+    float: right
 }
 
 .dropdown-content {
@@ -92,7 +93,8 @@ a {
     width: 120px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    margin-left: 730px
+    margin-right: 230px;
+    margin-top: 40px
 }
 
 .dropdown-content a {
@@ -128,7 +130,8 @@ a {
   font-weight: 100;
   border: 1px solid #feb41d;
   color: #B68FA3;
-  border-radius: 12px
+  border-radius: 12px;
+  float: left
 }
 
 .project-demo-button-link:hover {
@@ -140,13 +143,14 @@ a {
   /*on hover to display backend and frontend, if separated*/
   width: 80px;
   height: 40px;
-  margin-left: 750px;
+  margin-right: 100px;
   font-size: 1.25em;
   font-weight: 100;
   border: 1px solid #feb41d;
   color: #B68FA3;
   border-radius: 12px;
   cursor: pointer;
+  float: right
 
 }
 
@@ -156,7 +160,7 @@ a {
 }
 
 .project-video {
-  margin-top: 30px;
+  margin-top: 10px;
   float: left;
   height: 315px;
   width: 560px;
@@ -166,7 +170,7 @@ a {
 .project-code-snippet {
   float: right;
   margin-right: 80px;
-  margin-top: 30px;
+  margin-top: 10px;
   height: 315px;
   width: 360px;
 }
