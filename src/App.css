@@ -25,7 +25,10 @@
 }
 
 .carousel-control {
-  width: 80px
+  width: 80px;
+  color: #B68FA3;
+  background: none !important;
+  filter: progid: none !important;
 }
 
 a {
