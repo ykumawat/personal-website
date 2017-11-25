@@ -17,7 +17,7 @@ class About extends React.Component {
           <br/><br/>
           Please feel free to contact me, connect with me on LinkedIn, and check out my blog!
           <br/><br/>
-          This website was built using JavaScript, React, and Bootstrap. You can find the code for it <a href="https://github.com/ykumawat/personal-website">here</a>.
+          This website was built using JavaScript, React, and Bootstrap and uses Amazon Web Services' Lambda and API Gateway. You can find the code for it <a href="https://github.com/ykumawat/personal-website">here</a>.
         </p>
       </div>
     )

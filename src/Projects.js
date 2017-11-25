@@ -1,5 +1,6 @@
 import React from 'react'
 import { Carousel } from 'react-bootstrap'
+import Gist from 'react-gist'
 
 class Projects extends React.Component {
 
@@ -13,10 +14,10 @@ class Projects extends React.Component {
               <a href="https://github.com/ykumawat/ss_final_project" target="_blank" rel="noopener noreferrer"><button className="project-code-link">Code</button></a>
               <div>
                 <div className="project-video">
-                  coming soon
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/FP4Kir2us30" frameborder="0" gesture="media" allowFullScreen></iframe>
                 </div>
                 <div className="project-code-snippet">
-
+                  <iframe height="315px" width="360px" src="https://repl.it/@yamini011/SSsample?lite=true"></iframe>
                 </div>
               </div>
             </div>
@@ -38,10 +39,10 @@ class Projects extends React.Component {
             </div>
             <div>
             <div className="project-video">
-              coming soon
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/q1lJvwAuo0c" frameborder="0" gesture="media" allowFullScreen></iframe>
             </div>
             <div className="project-code-snippet">
-
+              <iframe height="315px" width="360px" src="https://repl.it/@yamini011/NYCRecRefSnippet?lite=true"></iframe>
             </div>
             </div>
           </div>
@@ -57,10 +58,10 @@ class Projects extends React.Component {
             <a href="https://github.com/ykumawat/fake-stockmarket" target="_blank" rel="noopener noreferrer"><button className="project-code-link">Code</button></a>
             <div>
               <div className="project-video">
-
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/9-p6BxYvOcM" frameborder="0" gesture="media" allowFullScreen></iframe>
               </div>
               <div className="project-code-snippet">
-
+                <iframe height="315px" width="360px" src="https://repl.it/@yamini011/YaKushlySnippet?lite=true"></iframe>
               </div>
             </div>
           </div>
@@ -74,12 +75,12 @@ class Projects extends React.Component {
           <div className="slide-container">
             <a href="https://github.com/ykumawat/module-one-final-project-guidelines-web-071717" target="_blank" rel="noopener noreferrer"><button className="project-code-link" style={{marginLeft: '900px'}}>Code</button></a>
             <div>
-            <div className="project-video">
-
-            </div>
-            <div className="project-code-snippet">
-
-            </div>
+              <div className="project-video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/shbSK6FcWkM" frameborder="0" gesture="media" allowFullScreen></iframe>
+              </div>
+              <div className="project-code-snippet">
+                <iframe height="315px" width="360px" src="https://repl.it/@yamini011/WhatsCookinSnippet?lite=true"></iframe>
+              </div>
             </div>
           </div>
           <Carousel.Caption style={{color: "#91736C", textShadow: "none", paddingBottom: "10px"}}>
