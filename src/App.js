@@ -32,14 +32,17 @@ class App extends Component {
       <div className="container">
         <div className="row">
           <div className="col-1">
-            <div style={{paddingTop:"15px", paddingLeft:"15px"}}>
+            <div style={{paddingTop:"8px", paddingLeft:"15px"}}>
               <a href='https://www.linkedin.com/in/ykumawat/' target="_blank" rel="noopener noreferrer"><img className="social-media-links" src={require('./images/linkedin.png')} alt="linkedin"/></a>
             </div>
-            <div style={{paddingTop:"15px", paddingLeft:"15px"}}>
+            <div style={{paddingTop:"8px", paddingLeft:"15px"}}>
               <a href='https://github.com/ykumawat' target="_blank" rel="noopener noreferrer"><img className="social-media-links" src={require('./images/github.svg')} alt="github"/></a>
             </div>
-            <div style={{paddingTop:"15px", paddingLeft:"15px"}}>
+            <div style={{paddingTop:"8px", paddingLeft:"15px"}}>
               <a href='https://twitter.com/yamini011' target="_blank" rel="noopener noreferrer"><img className="social-media-links" src={require('./images/twitter.png')} alt="twitter"/></a>
+            </div>
+            <div style={{paddingTop:"8px", paddingLeft:"15px"}}>
+              <a href='https://medium.com/@yamini011' target="_blank" rel="noopener noreferrer"><img className="social-media-links" src={require('./images/medium.ico')} alt="medium"/></a>
             </div>
           </div>
         <div className="col-3 name">
