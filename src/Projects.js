@@ -13,7 +13,7 @@ class Projects extends React.Component {
             <div className="slide-container">
               <div className="row">
                 <div className="col-4">
-                  <button className="project-demo-button-link">Demo</button>
+                  {/*<button className="project-demo-button-link">Demo - Coming Soon!</button>*/}
                 </div>
                 <div className="col-4">
                   <h2 style={{color: "#B68FA3", textAlign:"center", fontFamily:"Futura, Trebuchet MS, Arial, sans-serif"}}>S+S</h2>
@@ -46,7 +46,7 @@ class Projects extends React.Component {
           <div className="slide-container">
             <div className="row">
               <div className="col-4">
-                <button className="project-demo-button-link">Demo</button>
+                {/*<button className="project-demo-button-link">Demo - Coming Soon!</button>*/}
               </div>
               <div className="col-4">
                 <h2 style={{color: "#B68FA3", textAlign:"center", fontFamily:"Futura, Trebuchet MS, Arial, sans-serif"}}>NYC Rec Ref</h2>
@@ -85,7 +85,7 @@ class Projects extends React.Component {
           <div className="slide-container">
             <div className="row">
               <div className="col-4">
-                <button className="project-demo-button-link">Demo</button>
+                {/*<button className="project-demo-button-link">Demo - Coming Soon!</button>*/}
               </div>
               <div className="col-4">
                 <h2 style={{color: "#B68FA3", textAlign:"center", fontFamily:"Futura, Trebuchet MS, Arial, sans-serif"}}>YaKush.ly</h2>
