@@ -197,3 +197,9 @@ a {
   font-size: 1.25em;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 };
+
+@media (min-width: 480px) {
+  body {
+    background-color: red;
+  }
+}

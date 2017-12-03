@@ -4,7 +4,7 @@ class About extends React.Component {
 
   render() {
     return (
-      <div style={{paddingTop:"20px", textAlign:"justify"}}>
+      <div style={{paddingTop:"20px", textAlign:"justify", paddingBottom:"20px"}}>
         <p className="profile-description-text">
           Hi! I'm Yamini, an NYC based web developer and software engineer. I am a graduate of Flatiron School's Web Development Immersive Program and hold a B.A. in International Relations from Emory University.
           <br/><br/>
