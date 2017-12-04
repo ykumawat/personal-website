@@ -53,7 +53,7 @@ class Projects extends React.Component {
             <iframe className="project-video" src="https://www.youtube.com/embed/q1lJvwAuo0c" frameborder="0" gesture="media" allowFullScreen></iframe>
           </div>
           <div className="col-6 project-container">
-            <iframe className="project-code-snippet" src="https://repl.it/@yamini011/NYCRecRefSnippet?lite=true"></iframe>
+            <iframe className="project-code-snippet" src="https://repl.it/@yamini011/NycRecRef?lite=true"></iframe>
           </div>
         </div>
           <div className="col-12">
