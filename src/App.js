@@ -64,13 +64,6 @@ class App extends Component {
           </div>
         </div>
       </div>
-      <div>
-        <Tabs defaultActiveKey={2} animation={false} id="noanim-tab-example">
-          <Tab eventKey={1} title="About Me"><About/></Tab>
-          <Tab eventKey={2} title="Technical Projects"><Projects/></Tab>
-          <Tab eventKey={3} title="Blog"><Blog/></Tab>
-        </Tabs>
-      </div>
       <div className="footer">
         Made with Love and React.js, by Yamini Kumawat
       </div>
